@@ -1,0 +1,21 @@
+{
+  "name": "fsovws-workspace",
+  "version": "1.0.0",
+  "description": "Workspace for fsovws package",
+  "private": true,
+  "workspaces": [
+    "fsows"
+  ],
+  "scripts": {
+    "example": "node usage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Geoloup/fsovws.git"
+  },
+  "author": "gilaxy04 at geoloup",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
